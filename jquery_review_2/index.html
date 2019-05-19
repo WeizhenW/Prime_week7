@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>jQuery Delete</title>
+</head>
+<body>
+    <h1>jQuery Delete</h1>
+    <input id = "commonName" type="text" placeholder="common name">
+    <input id = "sciName" type="text" placeholder="scientific name"> 
+    <button id="addButton">Add</button>
+    <button id="deleteButton">Clear</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Common Name</th>
+                <th>Scientific Name</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+
+        <tbody id="dogTableBody">
+            <tr>
+                <td>Big Dog</td>
+                <td>Dogus Maximus</td>
+                <td><button class="deleteRow">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Golden Retriever</td>
+                <td>Retrievous Goldenus</td>
+                <td><button class="deleteRow">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Number of Dogs: <span id="counter">2</span></h3>    
+</body>
+</html>

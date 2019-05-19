@@ -1,0 +1,22 @@
+.center {
+    text-align: center;
+    color: green;
+}
+
+.imgStyle {
+    height: 300px;
+    width: 300px;
+    border: dash 5px greenyellow;
+    border-radius: 10%;
+}
+
+#orderNow {
+    background-image: linear-gradient(red, yellow);
+    color: white;
+    height: 50px; 
+    /* no need for width since padding is used - will be adjusted based on the length of the words */
+    font-size: 14px;
+    padding: 0 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
