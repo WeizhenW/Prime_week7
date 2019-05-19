@@ -1,0 +1,40 @@
+header {
+    height: 100px;
+    /* width: 100%; */
+    border: 5px solid red;
+}
+
+.first {
+    height: 400px;
+    width: 40%;
+    border: 5px solid blue;
+    /* float: left; */
+    display: inline-block; 
+    /* float and inline-block together: float will be dominant over inline-block */
+}
+
+.second {
+    height: 400px;
+    width: 40%;
+    border: 5px solid blue;
+    float: right;
+    /* display: inline-block; */
+}
+
+.middle {
+    height: 400px;
+    display: inline-block;
+
+}
+
+
+.third {
+    height: 100px;
+    /* width: 100%; */
+    border: 5px solid blue;
+}
+
+footer {
+    border: 5px solid purple;
+    height: 200px;
+}
